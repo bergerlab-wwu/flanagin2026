@@ -1,0 +1,12 @@
+Phonon calculation
+ISMEAR = -5
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+PREC = Normal
+ENCUT = 400
+EDIFF = 1E-6
+EDIFFG = -0.5E-3
+ISIF = 3
+IBRION = 8
+POTIM = 0.25
+NSW = 1
