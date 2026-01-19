@@ -1,0 +1,21 @@
+HSE06 band gap calculation with SOC, step 2
+ISMEAR=-5
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+PREC= Normal
+ENCUT = 400
+EDIFF=1E-6
+EDIFFG=-0.5E-3
+ISIF=3
+IBRION=2
+POTIM=0.01
+NSW = 1
+LHFCALC = .TRUE.
+HFSCREEN = 0.2
+ALGO = Normal
+TIME = 0.4
+PRECFOCK = Fast
+LMAXMIX = 4
+LSORBIT = .TRUE.
+NBANDS = 96    ! Must be twice the value from the first step.
+ISYM = -1
